@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+@theme {
+  --color-hostel-primary: #0d4f8b;
+  --color-hostel-secondary: #1a6bb3;
+  --color-hostel-accent: #c41e3a;
+  --color-hostel-cream: #f8f4e8;
+  --color-hostel-gold: #c9a227;
+  --color-hms-sidebar-start: #1e3a5f;
+  --color-hms-sidebar-end: #2563eb;
+  --color-hms-nav-active: #3b82f6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
